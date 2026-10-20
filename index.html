@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Money Manager for Android</title>
+<meta name="description" content="A personal finance tracker for Android with optional Google Drive backup.">
+<style>
+  :root { --bg:#fff; --fg:#1f1f22; --muted:#6b6b72; --accent:#ff6255; --line:#e6e6ea; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#16171a; --fg:#ececef; --muted:#a0a0a8; --line:#2c2d33; } }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 48px 16px 64px; }
+  h1 { font-size: 2rem; margin: 0 0 4px; }
+  .tag { color: var(--muted); margin: 0 0 32px; }
+  h2 { font-size: 1.15rem; margin: 32px 0 8px; }
+  ul { padding-left: 20px; }
+  a { color: var(--accent); }
+  footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--line); color: var(--muted); font-size: .9rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Money Manager</h1>
+  <p class="tag">A personal finance tracker for Android.</p>
+
+  <p>Money Manager records your income, expenses and transfers, shows them by day, calendar, month and category, and keeps your account balances, budgets and recurring transactions in one place. All data is stored on your device.</p>
+
+  <h2>Features</h2>
+  <ul>
+    <li>Daily, calendar, monthly and total views of your transactions</li>
+    <li>Accounts, credit and debit cards, budgets, repeating transactions and installments</li>
+    <li>Statistics and charts by category and account</li>
+    <li>Passcode and fingerprint lock</li>
+    <li>Home-screen widgets</li>
+    <li>On-device automatic backup, file backup, Excel export and import</li>
+    <li>Optional backup to your own Google Drive</li>
+  </ul>
+
+  <h2>Google Drive backup</h2>
+  <p>If you choose to connect a Google account, the app signs in with Google and creates a folder named <strong>MoneyManager</strong> in your own Google Drive. Backups are saved only to that folder, and the app can only access files it created there. You can disconnect at any time from the app's Backup screen, and remove access from your Google Account settings.</p>
+
+  <h2>Privacy</h2>
+  <p>Read the <a href="privacy.html">privacy policy</a>.</p>
+
+  <footer>
+    Package: com.viswa2k.moneymanager &middot; Questions or problems: <a href="https://github.com/viswanathanTJ/android-app-google-sign/issues">open an issue</a>
+  </footer>
+</main>
+</body>
+</html>
